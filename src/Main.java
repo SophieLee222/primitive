@@ -1,5 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        int ticketCost = 11_543;
+        int oneBonusMile = 20;
+
+        int bonusMiles = ticketCost / oneBonusMile;
+
+        System.out.println(bonusMiles);
     }
 }
